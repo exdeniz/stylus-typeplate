@@ -1,0 +1,16 @@
+weight = normal
+line-height = 1.65
+font-size = 112.5
+font-base = 16 * ($font-size/100)
+font-family = serif
+font-famaly-sans = serif
+font-properties = weight, line-height, font-size, font-family
+serif-boolean = true
+
+
+base-type(weight, line-height, font-size, font-family)
+    font: weight, font-size%/line-height,font-family;
+    if serif-boolean
+    font: weight, font-size%/line-height,font-family-serif;
+
+
