@@ -1,3 +1,50 @@
 html {
   font: normal 112.5%/1.65 sans-serif;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+  margin-top: 0;
+  text-rendering: optimizeLegibility;
+  color: #222;
+}
+.tera {
+  font-size: 6.5em;
+  margin-bottom: 0.25384615384615383em;
+}
+.giga {
+  font-size: 5em;
+  margin-bottom: 0.33em;
+}
+.mega {
+  font-size: 4em;
+  margin-bottom: 0.4125em;
+}
+.alpha {
+  font-size: 3.3333333333333335em;
+  margin-bottom: 0.495em;
+}
+.beta {
+  font-size: 2.6666666666666665em;
+  margin-bottom: 0.61875em;
+}
+.gamma {
+  font-size: 2em;
+  margin-bottom: 0.825em;
+}
+.delta {
+  font-size: 1.3333333333333333em;
+  margin-bottom: 1.2375em;
+}
+.epsilon {
+  font-size: 1.1666666666666667em;
+  margin-bottom: 1.4142857142857141em;
+}
+.zeta {
+  font-size: 1em;
+  margin-bottom: 1.65em;
+}

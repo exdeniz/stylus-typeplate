@@ -1,3 +1,19 @@
 measure = font-base * line-height
 
 
+context-cal(scale,base,value)
+    (scale/base)+value
+
+measure-margin(scale,measure,value)
+    (measure/scale)#value
+
+type-scale(scale, base, value, measure:"") {
+    if value == rem
+		font-size scale+'px'
+	else
+	    font-size context-calc(scale, base, value)
+	if measure != ""
+		margin-bottom measure-margin(scale, measure, value)
+
+
+type-scale(scale=alpha, font-base=font-base, type=scale-unit-value, measure = measure):q

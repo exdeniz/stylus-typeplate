@@ -1,0 +1,13 @@
+type-scale(sizes)
+    if type-scale-unit-value == 'rem'
+        font-size unit(sizes,'px')
+    else
+        font-size unit(sizes/font-base,'em')
+    measure = font-base*line-height
+    margin-bottom unit(measure/sizes,em)
+
+
+scale()
+    for size in sizes
+        .{size[0]}
+            type-scale(size[1])
