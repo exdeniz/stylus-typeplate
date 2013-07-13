@@ -1,3 +1,13 @@
+body {
+  word-wrap: break-word;
+}
+p+p {
+  text-indent: 1.5em;
+  margin-top: 1.5em;
+}
+p {
+  margin: auto auto 1.5em;
+}
 html {
   font: normal 112.5%/1.65 sans-serif;
 }
@@ -10,7 +20,6 @@ h6 {
   line-height: 1;
   margin-top: 0;
   text-rendering: optimizeLegibility;
-  color: #222;
 }
 .tera {
   font-size: 6.5em;
@@ -47,4 +56,15 @@ h6 {
 .zeta {
   font-size: 1em;
   margin-bottom: 1.65em;
+}
+body {
+  color: #444;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
 }
